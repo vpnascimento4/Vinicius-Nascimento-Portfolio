@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Vinicius Nascimento for collaboration or opportunities." />
+    <title>Contact | Vinicius Nascimento</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">VN</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="page-hero">
+        <div class="container">
+          <h1>Contact</h1>
+          <p>Reach out to discuss opportunities, collaborations, or questions. I look forward to connecting.</p>
+        </div>
+      </section>
+
+      <section class="content-section" aria-labelledby="contact-info-title">
+        <div class="container split">
+          <div>
+            <h2 id="contact-info-title">Contact Information</h2>
+            <ul class="contact-list">
+              <li>
+                <span>Email:</span>
+                <a href="mailto:viniciuspolizelli478@gmail.com">viniciuspolizelli478@gmail.com</a>
+              </li>
+              <li>
+                <span>Phone:</span>
+                <a href="tel:+19297830198">+1 (929) 783-0198</a>
+              </li>
+              <li><span>Location:</span> Newark, NJ</li>
+            </ul>
+            <p>Prefer to send a quick message? Use the form and I'll respond promptly.</p>
+          </div>
+          <form class="contact-form" aria-labelledby="contact-form-title" novalidate data-contact-form>
+            <h2 id="contact-form-title">Send a Message</h2>
+            <div class="form-field">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required aria-required="true" placeholder="Your name" />
+              <p class="field-error" id="name-error" role="alert" aria-live="polite"></p>
+            </div>
+            <div class="form-field">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required aria-required="true" placeholder="you@example.com" />
+              <p class="field-error" id="email-error" role="alert" aria-live="polite"></p>
+            </div>
+            <div class="form-field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required aria-required="true" placeholder="How can I help?" />
+              <p class="field-error" id="subject-error" role="alert" aria-live="polite"></p>
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required aria-required="true" placeholder="Write your message here..."></textarea>
+              <p class="field-error" id="message-error" role="alert" aria-live="polite"></p>
+            </div>
+            <button class="btn primary" type="submit">Submit</button>
+            <p class="form-success" role="status" aria-live="polite" hidden>Thank you! Your message has been sent.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="current-year"></span> Vinicius Nascimento. All rights reserved.</p>
+        <div class="footer-contact">
+          <a href="mailto:viniciuspolizelli478@gmail.com">Email</a>
+          <a href="tel:+19297830198">Call</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
