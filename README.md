@@ -40,7 +40,6 @@ The portfolio serves as both a professional introduction and a practice project 
 ## Deployment
 
 ### GitHub Pages
-Live Preview: [https://viniciusnascimento.github.io/portfolio-website](https://viniciusnascimento.github.io/portfolio-website)
-
+Live Preview: https://github.com/vpnascimento4/Vinicius-Nascimento-Portfolio/tree/main
 ### Vercel
 Production URL: https://vinicius-nascimento-portfolio.vercel.app/
